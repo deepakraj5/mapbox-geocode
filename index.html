@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+
+    <link href="./style.css" rel="stylesheet" />
+
+    <title>Maps</title>
+</head>
+<body>
+
+    <header>
+        <p>MapBox Location Search</p>
+    </header>
+
+    <div class="container">
+
+        <div class="grid-container">
+            <div class="grid-item">
+                
+                <input type="text" id="place" />
+
+                <button id="btn">Search</button>
+
+            </div>
+
+            <div class="grid-item">
+                <div id='map' style='width: 600px; height: 400px;'></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <p>Developed by Deepakraj S</p>
+    </footer>
+    
+    <script src="./script.js">
+    
+    </script>
+    
+</body>
+</html>

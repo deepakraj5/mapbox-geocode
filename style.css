@@ -1,0 +1,43 @@
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    margin: 0px 55px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.container {
+    flex-grow: 1;
+    height: 78vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    padding: 20px;
+    margin: 0px 30px;
+}
+
+input {
+    padding: 5px;
+    margin-top: 10rem;
+}
+
+button {
+    padding: 5px;
+    color: green;
+    background-color: cyan;
+    margin: 10px;
+}
+
+footer {
+    padding: 10px;
+    margin: 0px 50px;
+    background-color: grey;
+    text-align: center;
+}
